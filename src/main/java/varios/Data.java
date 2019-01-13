@@ -3,6 +3,9 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
+import java.util.logging.Logger;
+import java.util.logging.Level;
+
 
 public class Data {
 
@@ -19,17 +22,17 @@ public class Data {
 		try {
 			Class.forName("org.sqlite.JDBC");
 		} catch (ClassNotFoundException e1) {
-			// TODO Auto-generated catch block
-			e1.printStackTrace();
+		
+		
 		}
 		String url = "jdbc:sqlite:"+bdd;
-		Connection conn = null;
+		Connection connect = null;
 		try {
-			conn = DriverManager.getConnection(url);
+			connect = DriverManager.getConnection(url);
 		} catch (SQLException e) {
-			System.out.println(e.getMessage());
+			
 		}
-		return conn;
+		return connect;
 	}
 
 	public void insertarDocumento(keyDocument key,String patron, String lote,boolean valida) {
@@ -46,7 +49,7 @@ public class Data {
 			pstmt.executeUpdate();
 			pstmt.close();
 		} catch (SQLException e) {
-			System.out.println(e.getMessage());
+
 		}
 	}
 

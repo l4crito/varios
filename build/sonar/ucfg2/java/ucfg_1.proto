@@ -1,0 +1,62 @@
+
+<varios.Data#connect(Ljava/lang/String;)Ljava/sql/Connection;
+__unknown_file ("8*Î
+1S
+IC:\Users\Chritian\eclipse-workspace\varios\src\main\java\varios\Data.java 	  ("t
+S
+IC:\Users\Chritian\eclipse-workspace\varios\src\main\java\varios\Data.java   (
+
+connjava.sql.Connection*ø
+2S
+IC:\Users\Chritian\eclipse-workspace\varios\src\main\java\varios\Data.java (*˜
+•
+S
+IC:\Users\Chritian\eclipse-workspace\varios\src\main\java\varios\Data.java (*
+connjava.sql.Connection"__id*
+
+%3java.sql.Connection*
+1*Ù
+5S
+IC:\Users\Chritian\eclipse-workspace\varios\src\main\java\varios\Data.java
+ (ù
+ö
+S
+IC:\Users\Chritian\eclipse-workspace\varios\src\main\java\varios\Data.java
+ (*
+%3java.sql.Connection"Mjava.sql.DriverManager#getConnection(Ljava/lang/String;)Ljava/sql/Connection;*"
+java.sql.DriverManager*
+
+urljava.lang.String*
+2*¡
+6S
+IC:\Users\Chritian\eclipse-workspace\varios\src\main\java\varios\Data.java (§
+¤
+S
+IC:\Users\Chritian\eclipse-workspace\varios\src\main\java\varios\Data.java (!
+%2java.lang.String"__concat*
+jdbc:sqlite:*
+
+bddjava.lang.String‘
+Ž
+S
+IC:\Users\Chritian\eclipse-workspace\varios\src\main\java\varios\Data.java ("
+urljava.lang.String"__id*
+
+%2java.lang.Stringƒ
+€
+S
+IC:\Users\Chritian\eclipse-workspace\varios\src\main\java\varios\Data.java (
+connjava.sql.Connection"__id*
+""*
+5*·
+8S
+IC:\Users\Chritian\eclipse-workspace\varios\src\main\java\varios\Data.java (×
+Ô
+S
+IC:\Users\Chritian\eclipse-workspace\varios\src\main\java\varios\Data.java (#
+%0java.lang.Class"<java.lang.Class#forName(Ljava/lang/String;)Ljava/lang/Class;*"
+java.lang.Class*
+org.sqlite.JDBC*
+6:
+bddjava.lang.StringB
+varios.Data
