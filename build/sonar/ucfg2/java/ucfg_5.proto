@@ -1,36 +1,38 @@
 
-Fvarios.FilterData#verifyPatron(Lvarios/keyDocument;)Ljava/lang/String;
+Fvarios.FilterData#verifyPatron(Lvarios/KeyDocument;)Ljava/lang/String;
 __unknown_file ("11*Ë
 1Y
-OC:\Users\Chritian\eclipse-workspace\varios\src\main\java\varios\FilterData.javaa	 a("k
+OC:\Users\Chritian\eclipse-workspace\varios\src\main\java\varios\FilterData.java[
+ [("k
 Y
-OC:\Users\Chritian\eclipse-workspace\varios\src\main\java\varios\FilterData.javaa a(
+OC:\Users\Chritian\eclipse-workspace\varios\src\main\java\varios\FilterData.java[ [(
 
 sin patron*Ä
 2Y
-OC:\Users\Chritian\eclipse-workspace\varios\src\main\java\varios\FilterData.java^	 ^("d
+OC:\Users\Chritian\eclipse-workspace\varios\src\main\java\varios\FilterData.javaY
+ Y("d
 Y
-OC:\Users\Chritian\eclipse-workspace\varios\src\main\java\varios\FilterData.java^ ^(
+OC:\Users\Chritian\eclipse-workspace\varios\src\main\java\varios\FilterData.javaY Y(
 ruc*×
 3Y
-OC:\Users\Chritian\eclipse-workspace\varios\src\main\java\varios\FilterData.java\ \(ÓÐ
+OC:\Users\Chritian\eclipse-workspace\varios\src\main\java\varios\FilterData.javaW W(ÓÐ
 Y
-OC:\Users\Chritian\eclipse-workspace\varios\src\main\java\varios\FilterData.java\ \(
-%10java.lang.String"0varios.keyDocument#getCodigo()Ljava/lang/String;*
+OC:\Users\Chritian\eclipse-workspace\varios\src\main\java\varios\FilterData.javaW W(
+%10java.lang.String"0varios.KeyDocument#getCodigo()Ljava/lang/String;*
 
-keyvarios.keyDocument2getCodigo()ÍÊ
+keyvarios.KeyDocument2getCodigo()ÍÊ
 Y
-OC:\Users\Chritian\eclipse-workspace\varios\src\main\java\varios\FilterData.java\ \('
-%11java.lang.String"-varios.keyDocument#getRuc()Ljava/lang/String;*
+OC:\Users\Chritian\eclipse-workspace\varios\src\main\java\varios\FilterData.javaW$ W(0
+%11java.lang.String"-varios.KeyDocument#getRuc()Ljava/lang/String;*
 
-keyvarios.keyDocument2getRuc()×Ô
+keyvarios.KeyDocument2getRuc()×Ô
 Y
-OC:\Users\Chritian\eclipse-workspace\varios\src\main\java\varios\FilterData.java\ \(4
+OC:\Users\Chritian\eclipse-workspace\varios\src\main\java\varios\FilterData.javaW$ W(=
 %12java.lang.String"/java.lang.String#substring(I)Ljava/lang/String;*
 
 %11java.lang.String*22substring(I)îë
 Y
-OC:\Users\Chritian\eclipse-workspace\varios\src\main\java\varios\FilterData.java\ \(5
+OC:\Users\Chritian\eclipse-workspace\varios\src\main\java\varios\FilterData.javaW W(>
 %13boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
 
 %10java.lang.String*
@@ -39,29 +41,30 @@ OC:\Users\Chritian\eclipse-workspace\varios\src\main\java\varios\FilterData.java
 2
 1*Ñ
 4Y
-OC:\Users\Chritian\eclipse-workspace\varios\src\main\java\varios\FilterData.javaZ	 Z("q
+OC:\Users\Chritian\eclipse-workspace\varios\src\main\java\varios\FilterData.javaV
+ V("q
 Y
-OC:\Users\Chritian\eclipse-workspace\varios\src\main\java\varios\FilterData.javaZ Z(
+OC:\Users\Chritian\eclipse-workspace\varios\src\main\java\varios\FilterData.javaV V(
 secuencia=codigo*Þ
 5Y
-OC:\Users\Chritian\eclipse-workspace\varios\src\main\java\varios\FilterData.javaX X(ÒÏ
+OC:\Users\Chritian\eclipse-workspace\varios\src\main\java\varios\FilterData.javaT T(ÒÏ
 Y
-OC:\Users\Chritian\eclipse-workspace\varios\src\main\java\varios\FilterData.javaX X(
-%6java.lang.String"0varios.keyDocument#getCodigo()Ljava/lang/String;*
+OC:\Users\Chritian\eclipse-workspace\varios\src\main\java\varios\FilterData.javaT T(
+%6java.lang.String"0varios.KeyDocument#getCodigo()Ljava/lang/String;*
 
-keyvarios.keyDocument2getCodigo()Ú×
+keyvarios.KeyDocument2getCodigo()Ú×
 Y
-OC:\Users\Chritian\eclipse-workspace\varios\src\main\java\varios\FilterData.javaX X(.
-%7java.lang.String"4varios.keyDocument#getSecuencial()Ljava/lang/String;*
+OC:\Users\Chritian\eclipse-workspace\varios\src\main\java\varios\FilterData.javaT$ T(7
+%7java.lang.String"4varios.KeyDocument#getSecuencial()Ljava/lang/String;*
 
-keyvarios.keyDocument2getSecuencial()ÕÒ
+keyvarios.KeyDocument2getSecuencial()ÕÒ
 Y
-OC:\Users\Chritian\eclipse-workspace\varios\src\main\java\varios\FilterData.javaX X(;
+OC:\Users\Chritian\eclipse-workspace\varios\src\main\java\varios\FilterData.javaT$ T(D
 %8java.lang.String"/java.lang.String#substring(I)Ljava/lang/String;*
 
 %7java.lang.String*22substring(I)ëè
 Y
-OC:\Users\Chritian\eclipse-workspace\varios\src\main\java\varios\FilterData.javaX X(<
+OC:\Users\Chritian\eclipse-workspace\varios\src\main\java\varios\FilterData.javaT T(E
 %9boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
 
 %6java.lang.String*
@@ -70,20 +73,21 @@ OC:\Users\Chritian\eclipse-workspace\varios\src\main\java\varios\FilterData.java
 3
 4*É
 6Y
-OC:\Users\Chritian\eclipse-workspace\varios\src\main\java\varios\FilterData.javaV	 V("i
+OC:\Users\Chritian\eclipse-workspace\varios\src\main\java\varios\FilterData.javaS
+ S("i
 Y
-OC:\Users\Chritian\eclipse-workspace\varios\src\main\java\varios\FilterData.javaV V(
+OC:\Users\Chritian\eclipse-workspace\varios\src\main\java\varios\FilterData.javaS S(
 
 12345678*
 7Y
-OC:\Users\Chritian\eclipse-workspace\varios\src\main\java\varios\FilterData.javaT T(ÒÏ
+OC:\Users\Chritian\eclipse-workspace\varios\src\main\java\varios\FilterData.javaQ Q(ÒÏ
 Y
-OC:\Users\Chritian\eclipse-workspace\varios\src\main\java\varios\FilterData.javaT T(
-%4java.lang.String"0varios.keyDocument#getCodigo()Ljava/lang/String;*
+OC:\Users\Chritian\eclipse-workspace\varios\src\main\java\varios\FilterData.javaQ Q(
+%4java.lang.String"0varios.KeyDocument#getCodigo()Ljava/lang/String;*
 
-keyvarios.keyDocument2getCodigo()ßÜ
+keyvarios.KeyDocument2getCodigo()ßÜ
 Y
-OC:\Users\Chritian\eclipse-workspace\varios\src\main\java\varios\FilterData.javaT T(&
+OC:\Users\Chritian\eclipse-workspace\varios\src\main\java\varios\FilterData.javaQ Q(/
 %5boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
 
 %4java.lang.String*
@@ -92,20 +96,21 @@ OC:\Users\Chritian\eclipse-workspace\varios\src\main\java\varios\FilterData.java
 5
 6*É
 8Y
-OC:\Users\Chritian\eclipse-workspace\varios\src\main\java\varios\FilterData.javaR	 R("i
+OC:\Users\Chritian\eclipse-workspace\varios\src\main\java\varios\FilterData.javaP
+ P("i
 Y
-OC:\Users\Chritian\eclipse-workspace\varios\src\main\java\varios\FilterData.javaR R(
+OC:\Users\Chritian\eclipse-workspace\varios\src\main\java\varios\FilterData.javaP P(
 
 00000001*
 9Y
-OC:\Users\Chritian\eclipse-workspace\varios\src\main\java\varios\FilterData.javaP P(ÒÏ
+OC:\Users\Chritian\eclipse-workspace\varios\src\main\java\varios\FilterData.javaN N(ÒÏ
 Y
-OC:\Users\Chritian\eclipse-workspace\varios\src\main\java\varios\FilterData.javaP P(
-%2java.lang.String"0varios.keyDocument#getCodigo()Ljava/lang/String;*
+OC:\Users\Chritian\eclipse-workspace\varios\src\main\java\varios\FilterData.javaN N(
+%2java.lang.String"0varios.KeyDocument#getCodigo()Ljava/lang/String;*
 
-keyvarios.keyDocument2getCodigo()ßÜ
+keyvarios.KeyDocument2getCodigo()ßÜ
 Y
-OC:\Users\Chritian\eclipse-workspace\varios\src\main\java\varios\FilterData.javaP P(&
+OC:\Users\Chritian\eclipse-workspace\varios\src\main\java\varios\FilterData.javaN N(/
 %3boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
 
 %2java.lang.String*
@@ -114,20 +119,21 @@ OC:\Users\Chritian\eclipse-workspace\varios\src\main\java\varios\FilterData.java
 7
 8*Ê
 10Y
-OC:\Users\Chritian\eclipse-workspace\varios\src\main\java\varios\FilterData.javaN	 N("i
+OC:\Users\Chritian\eclipse-workspace\varios\src\main\java\varios\FilterData.javaM
+ M("i
 Y
-OC:\Users\Chritian\eclipse-workspace\varios\src\main\java\varios\FilterData.javaN N(
+OC:\Users\Chritian\eclipse-workspace\varios\src\main\java\varios\FilterData.javaM M(
 
 00000000*Ÿ
 11Y
-OC:\Users\Chritian\eclipse-workspace\varios\src\main\java\varios\FilterData.javaM M(ÒÏ
+OC:\Users\Chritian\eclipse-workspace\varios\src\main\java\varios\FilterData.javaL L(	ÒÏ
 Y
-OC:\Users\Chritian\eclipse-workspace\varios\src\main\java\varios\FilterData.javaM M(
-%0java.lang.String"0varios.keyDocument#getCodigo()Ljava/lang/String;*
+OC:\Users\Chritian\eclipse-workspace\varios\src\main\java\varios\FilterData.javaL L(
+%0java.lang.String"0varios.KeyDocument#getCodigo()Ljava/lang/String;*
 
-keyvarios.keyDocument2getCodigo()ßÜ
+keyvarios.KeyDocument2getCodigo()ßÜ
 Y
-OC:\Users\Chritian\eclipse-workspace\varios\src\main\java\varios\FilterData.javaM M(&
+OC:\Users\Chritian\eclipse-workspace\varios\src\main\java\varios\FilterData.javaL L((
 %1boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
 
 %0java.lang.String*
@@ -135,5 +141,5 @@ OC:\Users\Chritian\eclipse-workspace\varios\src\main\java\varios\FilterData.java
 000000002equals(Ljava/lang/Object;)*
 9
 10:
-keyvarios.keyDocumentB
+keyvarios.KeyDocumentB
 varios.FilterData

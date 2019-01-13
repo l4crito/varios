@@ -20,9 +20,9 @@ hashCode()java.lang.Object#hashCode()I&
 wait(JI)java.lang.Object#wait(JI)V5
 clone()*java.lang.Object#clone()Ljava/lang/Object;Ô
 varios.Datajava.lang.Object[
-connect(Ljava/lang/String;)<varios.Data#connect(Ljava/lang/String;)Ljava/sql/Connection;E
-<init>(Ljava/lang/String;)'varios.Data#<init>(Ljava/lang/String;)V©
-LinsertarDocumento(Lvarios/keyDocument;Ljava/lang/String;Ljava/lang/String;Z)Yvarios.Data#insertarDocumento(Lvarios/keyDocument;Ljava/lang/String;Ljava/lang/String;Z)V(
+connect(Ljava/lang/String;)<varios.Data#connect(Ljava/lang/String;)Ljava/sql/Connection;©
+LinsertarDocumento(Lvarios/KeyDocument;Ljava/lang/String;Ljava/lang/String;Z)Yvarios.Data#insertarDocumento(Lvarios/KeyDocument;Ljava/lang/String;Ljava/lang/String;Z)VE
+<init>(Ljava/lang/String;)'varios.Data#<init>(Ljava/lang/String;)V(
 java.io.Serializablejava.lang.Objectö
 java.lang.Throwablejava.lang.Objectjava.io.Serializable;
 printStackTrace()&java.lang.Throwable#printStackTrace()Vc
@@ -149,33 +149,33 @@ Elog(Ljava/util/logging/Level;Ljava/lang/String;Ljava/lang/Throwable;)_java.uti
 java.sql.Wrapperjava.lang.Object+
 java.lang.AutoCloseablejava.lang.ObjectR
 java.sql.Connectionjava.sql.Wrapperjava.lang.Objectjava.lang.AutoCloseableœ
-varios.keyDocumentjava.lang.ObjectT
-setEmision(Ljava/lang/String;)2varios.keyDocument#setEmision(Ljava/lang/String;)VV
-setAmbiente(Ljava/lang/String;)3varios.keyDocument#setAmbiente(Ljava/lang/String;)VP
-setFecha(Ljava/lang/String;)0varios.keyDocument#setFecha(Ljava/lang/String;)VL
-setRuc(Ljava/lang/String;).varios.keyDocument#setRuc(Ljava/lang/String;)VG
-getSecuencial()4varios.keyDocument#getSecuencial()Ljava/lang/String;P
-setSerie(Ljava/lang/String;)0varios.keyDocument#setSerie(Ljava/lang/String;)VZ
-!setSecuencial(Ljava/lang/String;)5varios.keyDocument#setSecuencial(Ljava/lang/String;)VN
-setTipo(Ljava/lang/String;)/varios.keyDocument#setTipo(Ljava/lang/String;)VP
-setLlave(Ljava/lang/String;)0varios.keyDocument#setLlave(Ljava/lang/String;)V=
+varios.KeyDocumentjava.lang.ObjectT
+setEmision(Ljava/lang/String;)2varios.KeyDocument#setEmision(Ljava/lang/String;)VV
+setAmbiente(Ljava/lang/String;)3varios.KeyDocument#setAmbiente(Ljava/lang/String;)VP
+setFecha(Ljava/lang/String;)0varios.KeyDocument#setFecha(Ljava/lang/String;)VL
+setRuc(Ljava/lang/String;).varios.KeyDocument#setRuc(Ljava/lang/String;)VG
+getSecuencial()4varios.KeyDocument#getSecuencial()Ljava/lang/String;P
+setSerie(Ljava/lang/String;)0varios.KeyDocument#setSerie(Ljava/lang/String;)VZ
+!setSecuencial(Ljava/lang/String;)5varios.KeyDocument#setSecuencial(Ljava/lang/String;)VN
+setTipo(Ljava/lang/String;)/varios.KeyDocument#setTipo(Ljava/lang/String;)VP
+setLlave(Ljava/lang/String;)0varios.KeyDocument#setLlave(Ljava/lang/String;)V=
 
-getSerie()/varios.keyDocument#getSerie()Ljava/lang/String;;
-	getTipo().varios.keyDocument#getTipo()Ljava/lang/String;=
+getSerie()/varios.KeyDocument#getSerie()Ljava/lang/String;;
+	getTipo().varios.KeyDocument#getTipo()Ljava/lang/String;=
 
-getFecha()/varios.keyDocument#getFecha()Ljava/lang/String;\
-"setVerificador(Ljava/lang/String;)6varios.keyDocument#setVerificador(Ljava/lang/String;)V?
-getCodigo()0varios.keyDocument#getCodigo()Ljava/lang/String;9
-getRuc()-varios.keyDocument#getRuc()Ljava/lang/String;C
-getAmbiente()2varios.keyDocument#getAmbiente()Ljava/lang/String;(
-<init>()varios.keyDocument#<init>()VA
-getEmision()1varios.keyDocument#getEmision()Ljava/lang/String;V
-setCreacion(Ljava/lang/String;)3varios.keyDocument#setCreacion(Ljava/lang/String;)VC
-getCreacion()2varios.keyDocument#getCreacion()Ljava/lang/String;R
-setCodigo(Ljava/lang/String;)1varios.keyDocument#setCodigo(Ljava/lang/String;)V=
+getFecha()/varios.KeyDocument#getFecha()Ljava/lang/String;\
+"setVerificador(Ljava/lang/String;)6varios.KeyDocument#setVerificador(Ljava/lang/String;)V?
+getCodigo()0varios.KeyDocument#getCodigo()Ljava/lang/String;9
+getRuc()-varios.KeyDocument#getRuc()Ljava/lang/String;C
+getAmbiente()2varios.KeyDocument#getAmbiente()Ljava/lang/String;(
+<init>()varios.KeyDocument#<init>()VA
+getEmision()1varios.KeyDocument#getEmision()Ljava/lang/String;V
+setCreacion(Ljava/lang/String;)3varios.KeyDocument#setCreacion(Ljava/lang/String;)VC
+getCreacion()2varios.KeyDocument#getCreacion()Ljava/lang/String;R
+setCodigo(Ljava/lang/String;)1varios.KeyDocument#setCodigo(Ljava/lang/String;)V=
 
-getLlave()/varios.keyDocument#getLlave()Ljava/lang/String;I
-getVerificador()5varios.keyDocument#getVerificador()Ljava/lang/String;ï
+getLlave()/varios.KeyDocument#getLlave()Ljava/lang/String;I
+getVerificador()5varios.KeyDocument#getVerificador()Ljava/lang/String;ï
 java.sql.Statementjava.sql.Wrapperjava.lang.Objectjava.lang.AutoCloseablef
 'executeLargeUpdate(Ljava/lang/String;I);java.sql.Statement#executeLargeUpdate(Ljava/lang/String;I)Jd
 &executeLargeUpdate(Ljava/lang/String;):java.sql.Statement#executeLargeUpdate(Ljava/lang/String;)Jh
@@ -211,7 +211,7 @@ iterator()4java.sql.SQLException#iterator()Ljava/util/Iterator;+
 getNextException()?java.sql.SQLException#getNextException()Ljava/sql/SQLException;U
 <init>(Ljava/lang/Throwable;)4java.sql.SQLException#<init>(Ljava/lang/Throwable;)V°
 varios.FilterDatajava.lang.Objectl
-"verifyPatron(Lvarios/keyDocument;)Fvarios.FilterData#verifyPatron(Lvarios/keyDocument;)Ljava/lang/String;'
+"verifyPatron(Lvarios/KeyDocument;)Fvarios.FilterData#verifyPatron(Lvarios/KeyDocument;)Ljava/lang/String;'
 <init>()varios.FilterData#<init>()VI
 main([Ljava/lang/String;),varios.FilterData#main([Ljava/lang/String;)Vó
 @readFile(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Svarios.FilterData#readFile(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)I(
