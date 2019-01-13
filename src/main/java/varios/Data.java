@@ -8,6 +8,8 @@ import java.util.logging.Level;
 
 
 public class Data {
+	
+	 Logger logger = Logger.getLogger(Data.class.getName());
 
 	Connection conn ;
 
@@ -17,20 +19,20 @@ public class Data {
 
 	}
 
-	private Connection connect(String bdd) {
+	 private Connection connect(String bdd) {
 		// SQLite connection string
-		try {
-			Class.forName("org.sqlite.JDBC");
-		} catch (ClassNotFoundException e1) {
-		
-		
-		}
+	
 		String url = "jdbc:sqlite:"+bdd;
 		Connection connect = null;
 		try {
+			
+			Class.forName("org.sqlite.JDBC");
 			connect = DriverManager.getConnection(url);
 		} catch (SQLException e) {
-			
+			  logger.log(Level.SEVERE, e.getMessage());
+		} catch (ClassNotFoundException e) {
+			// TODO Auto-generated catch block
+			  logger.log(Level.SEVERE, e.getMessage());
 		}
 		return connect;
 	}
@@ -49,7 +51,7 @@ public class Data {
 			pstmt.executeUpdate();
 			pstmt.close();
 		} catch (SQLException e) {
-
+			  logger.log(Level.SEVERE, e.getMessage());
 		}
 	}
 
