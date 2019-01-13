@@ -28,12 +28,9 @@ public class Data {
 			
 			Class.forName("org.sqlite.JDBC");
 			connect = DriverManager.getConnection(url);
-		} catch (SQLException e) {
+		} catch (SQLException | ClassNotFoundException  e) {
 			  logger.log(Level.SEVERE, e.getMessage());
-		} catch (ClassNotFoundException e) {
-			// TODO Auto-generated catch block
-			  logger.log(Level.SEVERE, e.getMessage());
-		}
+		} 
 		return connect;
 	}
 

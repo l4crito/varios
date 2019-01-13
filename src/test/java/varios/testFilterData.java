@@ -10,7 +10,7 @@ public class testFilterData {
 
 	@Test
 	public void testReadFile() {
-		filterData fd = new filterData();
+		FilterData fd = new FilterData();
 		int ass=fd.readFile("test.txt", "\"", "test");
 		assertEquals(1, ass);
 		
@@ -18,7 +18,7 @@ public class testFilterData {
 
 	@Test
 	public void testVerifyPatron() {
-		filterData fd = new filterData();
+		FilterData fd = new FilterData();
 		keyDocument key=new keyDocument();
 		key.setLlave("0108201801170033017600110010020000000994157561316");
 		key.setRuc("1801795475001");

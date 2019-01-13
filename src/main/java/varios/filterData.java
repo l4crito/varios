@@ -4,11 +4,15 @@ import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
-public class filterData {
+public class FilterData {
 
+	 Logger logger = Logger.getLogger(Data.class.getName());
+	
 	public static void main(String[] args) {
-		filterData fl = new filterData();
+		FilterData fl = new FilterData();
 		fl.readFile("C:\\Users\\Chritian\\eclipse-workspace\\varios/noventaytres.csv", "\"","noventa y tres mil");
 	}
 
@@ -16,7 +20,7 @@ public class filterData {
 		File file = new File(fileDir);
 		keyDocument key;
 		ArrayList<keyDocument> llaves = new ArrayList<>();
-		List<List<String>> lines = new ArrayList<>();
+		
 		Scanner inputStream;
 		int cantidad = 0;
 		try {
@@ -57,7 +61,7 @@ public class filterData {
 				}
 				
 				cantidad++;
-				System.out.println(cantidad);
+				  logger.log(Level.SEVERE, cantidad+"");
 
 			}
 		} catch (FileNotFoundException e) {

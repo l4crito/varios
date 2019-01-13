@@ -3,5 +3,5 @@ projectKey=l4crito_varios
 serverUrl=https://sonarcloud.io
 serverVersion=7.6.0.20657
 dashboardUrl=https://sonarcloud.io/dashboard?id=l4crito_varios
-ceTaskId=AWhIpvLVrFADGLK09Ogs
-ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AWhIpvLVrFADGLK09Ogs
+ceTaskId=AWhJGumKqDdpA2vNW8JJ
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AWhJGumKqDdpA2vNW8JJ

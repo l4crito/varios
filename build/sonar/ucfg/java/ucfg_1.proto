@@ -1,39 +1,46 @@
 
 <varios.Data#connect(Ljava/lang/String;)Ljava/sql/Connection;
-__unknown_file (bdd"8*¹
+__unknown_file (bdd"9*¼
 1S
-IC:\Users\Chritian\eclipse-workspace\varios\src\main\java\varios\Data.java 	  ("_
+IC:\Users\Chritian\eclipse-workspace\varios\src\main\java\varios\Data.java%	 %("b
 S
-IC:\Users\Chritian\eclipse-workspace\varios\src\main\java\varios\Data.java   (
-
-conn*Ì
+IC:\Users\Chritian\eclipse-workspace\varios\src\main\java\varios\Data.java% %(
+	
+connect*Ï
 2S
-IC:\Users\Chritian\eclipse-workspace\varios\src\main\java\varios\Data.java (*m
-k
+IC:\Users\Chritian\eclipse-workspace\varios\src\main\java\varios\Data.java (-p
+n
 S
-IC:\Users\Chritian\eclipse-workspace\varios\src\main\java\varios\Data.java (*
-conn"__id*
+IC:\Users\Chritian\eclipse-workspace\varios\src\main\java\varios\Data.java (-	
+connect"__id*
 
-%3*
+%2*
 1*²
-5S
-IC:\Users\Chritian\eclipse-workspace\varios\src\main\java\varios\Data.java
- (Ò
+7S
+IC:\Users\Chritian\eclipse-workspace\varios\src\main\java\varios\Data.java (Ò
 Ï
 S
-IC:\Users\Chritian\eclipse-workspace\varios\src\main\java\varios\Data.java
- (*
-%3"Mjava.sql.DriverManager#getConnection(Ljava/lang/String;)Ljava/sql/Connection;*"
+IC:\Users\Chritian\eclipse-workspace\varios\src\main\java\varios\Data.java (-
+%2"Mjava.sql.DriverManager#getConnection(Ljava/lang/String;)Ljava/sql/Connection;*"
 java.sql.DriverManager*
 
 url*
-2*À
-6S
+2*¦
+8S
+IC:\Users\Chritian\eclipse-workspace\varios\src\main\java\varios\Data.java (Æ
+Ã
+S
+IC:\Users\Chritian\eclipse-workspace\varios\src\main\java\varios\Data.java (#
+%1"<java.lang.Class#forName(Ljava/lang/String;)Ljava/lang/Class;*"
+java.lang.Class*
+org.sqlite.JDBC*
+7*Ã
+9S
 IC:\Users\Chritian\eclipse-workspace\varios\src\main\java\varios\Data.java (ƒ
 €
 S
 IC:\Users\Chritian\eclipse-workspace\varios\src\main\java\varios\Data.java (!
-%2"__concat*
+%0"__concat*
 jdbc:sqlite:*
 
 bddl
@@ -42,19 +49,10 @@ S
 IC:\Users\Chritian\eclipse-workspace\varios\src\main\java\varios\Data.java ("
 url"__id*
 
-%2m
-k
+%0p
+n
 S
-IC:\Users\Chritian\eclipse-workspace\varios\src\main\java\varios\Data.java (
-conn"__id*
+IC:\Users\Chritian\eclipse-workspace\varios\src\main\java\varios\Data.java (	
+connect"__id*
 ""*
-5*¦
-8S
-IC:\Users\Chritian\eclipse-workspace\varios\src\main\java\varios\Data.java (Æ
-Ã
-S
-IC:\Users\Chritian\eclipse-workspace\varios\src\main\java\varios\Data.java (#
-%0"<java.lang.Class#forName(Ljava/lang/String;)Ljava/lang/Class;*"
-java.lang.Class*
-org.sqlite.JDBC*
-6
+8

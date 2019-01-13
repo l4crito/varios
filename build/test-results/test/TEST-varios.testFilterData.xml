@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="varios.testFilterData" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-01-13T19:14:00" hostname="Lenovo-drunk" time="0.123">
+<testsuite name="varios.testFilterData" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-01-13T21:25:04" hostname="Lenovo-drunk" time="0.107">
   <properties/>
-  <testcase name="testReadFile" classname="varios.testFilterData" time="0.123"/>
+  <testcase name="testReadFile" classname="varios.testFilterData" time="0.107"/>
   <testcase name="testVerifyPatron" classname="varios.testFilterData" time="0.0"/>
   <system-out><![CDATA[1
 ]]></system-out>
