@@ -22,10 +22,7 @@ hashCode()java.lang.Object#hashCode()I&
 varios.Datajava.lang.Object[
 connect(Ljava/lang/String;)<varios.Data#connect(Ljava/lang/String;)Ljava/sql/Connection;E
 <init>(Ljava/lang/String;)'varios.Data#<init>(Ljava/lang/String;)V©
-LinsertarDocumento(Lvarios/keyDocument;Ljava/lang/String;Ljava/lang/String;Z)Yvarios.Data#insertarDocumento(Lvarios/keyDocument;Ljava/lang/String;Ljava/lang/String;Z)V÷
-java.lang.Iterablejava.lang.Objectd
-&forEach(Ljava/util/function/Consumer;):java.lang.Iterable#forEach(Ljava/util/function/Consumer;)VH
-spliterator()7java.lang.Iterable#spliterator()Ljava/util/Spliterator;(
+LinsertarDocumento(Lvarios/keyDocument;Ljava/lang/String;Ljava/lang/String;Z)Yvarios.Data#insertarDocumento(Lvarios/keyDocument;Ljava/lang/String;Ljava/lang/String;Z)V(
 java.io.Serializablejava.lang.Objectö
 java.lang.Throwablejava.lang.Objectjava.io.Serializable;
 printStackTrace()&java.lang.Throwable#printStackTrace()Vc
@@ -63,25 +60,7 @@ getCause()3java.lang.Throwable#getCause()Ljava/lang/Throwable;e
 <init>(Ljava/lang/String;)/java.lang.Exception#<init>(Ljava/lang/String;)Vw
 /<init>(Ljava/lang/String;Ljava/lang/Throwable;)Djava.lang.Exception#<init>(Ljava/lang/String;Ljava/lang/Throwable;)V{
 1<init>(Ljava/lang/String;Ljava/lang/Throwable;ZZ)Fjava.lang.Exception#<init>(Ljava/lang/String;Ljava/lang/Throwable;ZZ)VS
-<init>(Ljava/lang/Throwable;)2java.lang.Exception#<init>(Ljava/lang/Throwable;)V˙
-
-java.sql.SQLExceptionjava.lang.Iterablejava.lang.Exception/
-
-<clinit>()!java.sql.SQLException#<clinit>()V7
-getErrorCode()%java.sql.SQLException#getErrorCode()Iy
-/<init>(Ljava/lang/String;Ljava/lang/Throwable;)Fjava.sql.SQLException#<init>(Ljava/lang/String;Ljava/lang/Throwable;)Vü
-B<init>(Ljava/lang/String;Ljava/lang/String;ILjava/lang/Throwable;)Yjava.sql.SQLException#<init>(Ljava/lang/String;Ljava/lang/String;ILjava/lang/Throwable;)Vù
-A<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)Xjava.sql.SQLException#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)VB
-
-iterator()4java.sql.SQLException#iterator()Ljava/util/Iterator;+
-<init>()java.sql.SQLException#<init>()Vu
--<init>(Ljava/lang/String;Ljava/lang/String;I)Djava.sql.SQLException#<init>(Ljava/lang/String;Ljava/lang/String;I)Vm
-)setNextException(Ljava/sql/SQLException;)@java.sql.SQLException#setNextException(Ljava/sql/SQLException;)VO
-<init>(Ljava/lang/String;)1java.sql.SQLException#<init>(Ljava/lang/String;)VF
-getSQLState()5java.sql.SQLException#getSQLState()Ljava/lang/String;s
-,<init>(Ljava/lang/String;Ljava/lang/String;)Cjava.sql.SQLException#<init>(Ljava/lang/String;Ljava/lang/String;)VU
-getNextException()?java.sql.SQLException#getNextException()Ljava/sql/SQLException;U
-<init>(Ljava/lang/Throwable;)4java.sql.SQLException#<init>(Ljava/lang/Throwable;)VÆW
+<init>(Ljava/lang/Throwable;)2java.lang.Exception#<init>(Ljava/lang/Throwable;)VÆW
 java.util.logging.Loggerjava.lang.ObjectF
 isLevelInitialized().java.util.logging.Logger#isLevelInitialized()Zd
 #fine(Ljava/util/function/Supplier;)=java.util.logging.Logger#fine(Ljava/util/function/Supplier;)VÖ
@@ -166,19 +145,7 @@ ulogp(Ljava/util/logging/Level;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Th
 @entering(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Object;)Zjava.util.logging.Logger#entering(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Object;)VN
 info(Ljava/lang/String;)2java.util.logging.Logger#info(Ljava/lang/String;)Vx
 -exiting(Ljava/lang/String;Ljava/lang/String;)Gjava.util.logging.Logger#exiting(Ljava/lang/String;Ljava/lang/String;)V®
-Elog(Ljava/util/logging/Level;Ljava/lang/String;Ljava/lang/Throwable;)_java.util.logging.Logger#log(Ljava/util/logging/Level;Ljava/lang/String;Ljava/lang/Throwable;)V“
-&java.lang.ReflectiveOperationExceptionjava.lang.Exception<
-<init>()0java.lang.ReflectiveOperationException#<init>()V`
-<init>(Ljava/lang/String;)Bjava.lang.ReflectiveOperationException#<init>(Ljava/lang/String;)Vä
-/<init>(Ljava/lang/String;Ljava/lang/Throwable;)Wjava.lang.ReflectiveOperationException#<init>(Ljava/lang/String;Ljava/lang/Throwable;)Vf
-<init>(Ljava/lang/Throwable;)Ejava.lang.ReflectiveOperationException#<init>(Ljava/lang/Throwable;)Vç
- java.lang.ClassNotFoundException&java.lang.ReflectiveOperationException6
-<init>()*java.lang.ClassNotFoundException#<init>()VN
-
-getCause()@java.lang.ClassNotFoundException#getCause()Ljava/lang/Throwable;Z
-<init>(Ljava/lang/String;)<java.lang.ClassNotFoundException#<init>(Ljava/lang/String;)VV
-getException()Djava.lang.ClassNotFoundException#getException()Ljava/lang/Throwable;Ñ
-/<init>(Ljava/lang/String;Ljava/lang/Throwable;)Qjava.lang.ClassNotFoundException#<init>(Ljava/lang/String;Ljava/lang/Throwable;)V$
+Elog(Ljava/util/logging/Level;Ljava/lang/String;Ljava/lang/Throwable;)_java.util.logging.Logger#log(Ljava/util/logging/Level;Ljava/lang/String;Ljava/lang/Throwable;)V$
 java.sql.Wrapperjava.lang.Object+
 java.lang.AutoCloseablejava.lang.ObjectR
 java.sql.Connectionjava.sql.Wrapperjava.lang.Objectjava.lang.AutoCloseableœ
@@ -221,12 +188,33 @@ getLlave()/varios.keyDocument#getLlave()Ljava/lang/String;I
 java.sql.PreparedStatementjava.sql.Statementjava.lang.ObjectH
 executeLargeUpdate()0java.sql.PreparedStatement#executeLargeUpdate()JÄ
 0setObject(ILjava/lang/Object;Ljava/sql/SQLType;)Ljava.sql.PreparedStatement#setObject(ILjava/lang/Object;Ljava/sql/SQLType;)VÇ
-1setObject(ILjava/lang/Object;Ljava/sql/SQLType;I)Mjava.sql.PreparedStatement#setObject(ILjava/lang/Object;Ljava/sql/SQLType;I)V°
-varios.filterDatajava.lang.Objectl
-"verifyPatron(Lvarios/keyDocument;)Fvarios.filterData#verifyPatron(Lvarios/keyDocument;)Ljava/lang/String;'
-<init>()varios.filterData#<init>()VI
-main([Ljava/lang/String;),varios.filterData#main([Ljava/lang/String;)Vó
-@readFile(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Svarios.filterData#readFile(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)I(
+1setObject(ILjava/lang/Object;Ljava/sql/SQLType;I)Mjava.sql.PreparedStatement#setObject(ILjava/lang/Object;Ljava/sql/SQLType;I)V÷
+java.lang.Iterablejava.lang.Objectd
+&forEach(Ljava/util/function/Consumer;):java.lang.Iterable#forEach(Ljava/util/function/Consumer;)VH
+spliterator()7java.lang.Iterable#spliterator()Ljava/util/Spliterator;˙
+
+java.sql.SQLExceptionjava.lang.Iterablejava.lang.Exception/
+
+<clinit>()!java.sql.SQLException#<clinit>()V7
+getErrorCode()%java.sql.SQLException#getErrorCode()Iy
+/<init>(Ljava/lang/String;Ljava/lang/Throwable;)Fjava.sql.SQLException#<init>(Ljava/lang/String;Ljava/lang/Throwable;)Vü
+B<init>(Ljava/lang/String;Ljava/lang/String;ILjava/lang/Throwable;)Yjava.sql.SQLException#<init>(Ljava/lang/String;Ljava/lang/String;ILjava/lang/Throwable;)Vù
+A<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)Xjava.sql.SQLException#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)VB
+
+iterator()4java.sql.SQLException#iterator()Ljava/util/Iterator;+
+<init>()java.sql.SQLException#<init>()Vu
+-<init>(Ljava/lang/String;Ljava/lang/String;I)Djava.sql.SQLException#<init>(Ljava/lang/String;Ljava/lang/String;I)Vm
+)setNextException(Ljava/sql/SQLException;)@java.sql.SQLException#setNextException(Ljava/sql/SQLException;)VO
+<init>(Ljava/lang/String;)1java.sql.SQLException#<init>(Ljava/lang/String;)VF
+getSQLState()5java.sql.SQLException#getSQLState()Ljava/lang/String;s
+,<init>(Ljava/lang/String;Ljava/lang/String;)Cjava.sql.SQLException#<init>(Ljava/lang/String;Ljava/lang/String;)VU
+getNextException()?java.sql.SQLException#getNextException()Ljava/sql/SQLException;U
+<init>(Ljava/lang/Throwable;)4java.sql.SQLException#<init>(Ljava/lang/Throwable;)V°
+varios.FilterDatajava.lang.Objectl
+"verifyPatron(Lvarios/keyDocument;)Fvarios.FilterData#verifyPatron(Lvarios/keyDocument;)Ljava/lang/String;'
+<init>()varios.FilterData#<init>()VI
+main([Ljava/lang/String;),varios.FilterData#main([Ljava/lang/String;)Vó
+@readFile(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Svarios.FilterData#readFile(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)I(
 java.lang.Comparablejava.lang.Object”
 java.io.Filejava.lang.Comparablejava.lang.Objectjava.io.SerializableF
 equals(Ljava/lang/Object;)(java.io.File#equals(Ljava/lang/Object;)Z&
@@ -622,79 +610,7 @@ $regionMatches(ILjava/lang/String;II)6java.lang.String#regionMatches(ILjava/lan
 
 valueOf(J)-java.lang.String#valueOf(J)Ljava/lang/String;X
 !<init>(Ljava/lang/StringBuilder;)3java.lang.String#<init>(Ljava/lang/StringBuilder;)V`
-%regionMatches(ZILjava/lang/String;II)7java.lang.String#regionMatches(ZILjava/lang/String;II)Z(
-java.lang.Appendablejava.lang.Object%
-java.io.Flushablejava.lang.ObjectÆ
-java.io.OutputStreamjava.io.Closeablejava.lang.Objectjava.io.Flushable,
-	write([B)java.io.OutputStream#write([B)V*
-<init>()java.io.OutputStream#<init>()V(
-flush()java.io.OutputStream#flush()V(
-close()java.io.OutputStream#close()V0
-write([BII)!java.io.OutputStream#write([BII)Vé
-java.io.FilterOutputStreamjava.io.OutputStream2
-	write([B)%java.io.FilterOutputStream#write([B)V\
-<init>(Ljava/io/OutputStream;):java.io.FilterOutputStream#<init>(Ljava/io/OutputStream;)V.
-flush()#java.io.FilterOutputStream#flush()V0
-write(I)$java.io.FilterOutputStream#write(I)V.
-close()#java.io.FilterOutputStream#close()V6
-write([BII)'java.io.FilterOutputStream#write([BII)VÜ
-java.io.PrintStreamjava.lang.Appendablejava.io.Closeablejava.io.FilterOutputStream)
-print(J)java.io.PrintStream#print(J)V+
-	write([C)java.io.PrintStream#write([C)V-
-
-println(J)java.io.PrintStream#println(J)V-
-
-println(D)java.io.PrintStream#println(D)V)
-print(F)java.io.PrintStream#print(F)V-
-
-println(F)java.io.PrintStream#println(F)VO
-println(Ljava/lang/String;)0java.io.PrintStream#println(Ljava/lang/String;)VE
-<init>(Ljava/io/File;)+java.io.PrintStream#<init>(Ljava/io/File;)VW
-<init>(Ljava/io/OutputStream;Z)4java.io.PrintStream#<init>(Ljava/io/OutputStream;Z)V1
-ensureOpen()!java.io.PrintStream#ensureOpen()V´
-?printf(Ljava/util/Locale;Ljava/lang/String;[Ljava/lang/Object;)hjava.io.PrintStream#printf(Ljava/util/Locale;Ljava/lang/String;[Ljava/lang/Object;)Ljava/io/PrintStream;/
-write([BII) java.io.PrintStream#write([BII)V)
-print(Z)java.io.PrintStream#print(Z)V1
-clearError()!java.io.PrintStream#clearError()V-
-
-setError()java.io.PrintStream#setError()Vá
--printf(Ljava/lang/String;[Ljava/lang/Object;)Vjava.io.PrintStream#printf(Ljava/lang/String;[Ljava/lang/Object;)Ljava/io/PrintStream;-
-
-println(Z)java.io.PrintStream#println(Z)Vi
-(<init>(Ljava/io/File;Ljava/lang/String;)=java.io.PrintStream#<init>(Ljava/io/File;Ljava/lang/String;)V?
-	append(C)2java.io.PrintStream#append(C)Ljava/io/PrintStream;M
-<init>(Ljava/lang/String;)/java.io.PrintStream#<init>(Ljava/lang/String;)Vá
--format(Ljava/lang/String;[Ljava/lang/Object;)Vjava.io.PrintStream#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/io/PrintStream;)
-write(I)java.io.PrintStream#write(I)V+
-	newLine()java.io.PrintStream#newLine()V)
-print(C)java.io.PrintStream#print(C)V1
-checkError()!java.io.PrintStream#checkError()ZO
-println(Ljava/lang/Object;)0java.io.PrintStream#println(Ljava/lang/Object;)V+
-	println()java.io.PrintStream#println()VK
-print(Ljava/lang/String;).java.io.PrintStream#print(Ljava/lang/String;)V'
-close()java.io.PrintStream#close()Ví
-4requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Zjava.io.PrintStream#requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;)
-print(I)java.io.PrintStream#print(I)V-
-
-println(I)java.io.PrintStream#println(I)V-
-
-println(C)java.io.PrintStream#println(C)V'
-flush()java.io.PrintStream#flush()V´
-?format(Ljava/util/Locale;Ljava/lang/String;[Ljava/lang/Object;)hjava.io.PrintStream#format(Ljava/util/Locale;Ljava/lang/String;[Ljava/lang/Object;)Ljava/io/PrintStream;K
-write(Ljava/lang/String;).java.io.PrintStream#write(Ljava/lang/String;)Vã
-9<init>(ZLjava/io/OutputStream;Ljava/nio/charset/Charset;)Njava.io.PrintStream#<init>(ZLjava/io/OutputStream;Ljava/nio/charset/Charset;)VK
-print(Ljava/lang/Object;).java.io.PrintStream#print(Ljava/lang/Object;)V{
-1<init>(Ljava/io/OutputStream;ZLjava/lang/String;)Fjava.io.PrintStream#<init>(Ljava/io/OutputStream;ZLjava/lang/String;)Vm
- append(Ljava/lang/CharSequence;)Ijava.io.PrintStream#append(Ljava/lang/CharSequence;)Ljava/io/PrintStream;l
-toCharset(Ljava/lang/String;)Kjava.io.PrintStream#toCharset(Ljava/lang/String;)Ljava/nio/charset/Charset;W
-<init>(ZLjava/io/OutputStream;)4java.io.PrintStream#<init>(ZLjava/io/OutputStream;)Vq
-"append(Ljava/lang/CharSequence;II)Kjava.io.PrintStream#append(Ljava/lang/CharSequence;II)Ljava/io/PrintStream;+
-	print([C)java.io.PrintStream#print([C)VU
-<init>(Ljava/io/OutputStream;)3java.io.PrintStream#<init>(Ljava/io/OutputStream;)V)
-print(D)java.io.PrintStream#print(D)Vq
-,<init>(Ljava/lang/String;Ljava/lang/String;)Ajava.io.PrintStream#<init>(Ljava/lang/String;Ljava/lang/String;)V/
-println([C) java.io.PrintStream#println([C)Vã
-9<init>(ZLjava/nio/charset/Charset;Ljava/io/OutputStream;)Njava.io.PrintStream#<init>(ZLjava/nio/charset/Charset;Ljava/io/OutputStream;)VÚ
+%regionMatches(ZILjava/lang/String;II)7java.lang.String#regionMatches(ZILjava/lang/String;II)ZÚ
 java.io.IOExceptionjava.lang.Exception)
 <init>()java.io.IOException#<init>()VM
 <init>(Ljava/lang/String;)/java.io.IOException#<init>(Ljava/lang/String;)Vw

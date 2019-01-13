@@ -1,8 +1,6 @@
 package varios;
 
-import static org.junit.Assert.*;
-
-import java.util.GregorianCalendar;
+import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
@@ -19,7 +17,7 @@ public class testFilterData {
 	@Test
 	public void testVerifyPatron() {
 		FilterData fd = new FilterData();
-		keyDocument key=new keyDocument();
+		KeyDocument key=new KeyDocument();
 		key.setLlave("0108201801170033017600110010020000000994157561316");
 		key.setRuc("1801795475001");
 		key.setSecuencial("0000000");

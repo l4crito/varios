@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="varios.testFilterData" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-01-13T21:25:04" hostname="Lenovo-drunk" time="0.107">
+<testsuite name="varios.testFilterData" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-01-13T21:36:00" hostname="Lenovo-drunk" time="0.119">
   <properties/>
-  <testcase name="testReadFile" classname="varios.testFilterData" time="0.107"/>
+  <testcase name="testReadFile" classname="varios.testFilterData" time="0.118"/>
   <testcase name="testVerifyPatron" classname="varios.testFilterData" time="0.0"/>
-  <system-out><![CDATA[1
-]]></system-out>
-  <system-err><![CDATA[]]></system-err>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[ene 13, 2019 4:36:00 PM varios.FilterData readFile
+GRAVE: 1
+]]></system-err>
 </testsuite>

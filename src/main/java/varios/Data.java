@@ -34,7 +34,7 @@ public class Data {
 		return connect;
 	}
 
-	public void insertarDocumento(keyDocument key,String patron, String lote,boolean valida) {
+	public void insertarDocumento(KeyDocument key,String patron, String lote,boolean valida) {
 		String sql = "INSERT INTO keys(llave,lote,patron,estado) VALUES(?,?,?,?)";
 
 		try {

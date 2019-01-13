@@ -1,6 +1,6 @@
 package varios;
 
-public class keyDocument {
+public class KeyDocument {
 	
 	String creacion;
 	String llave;
