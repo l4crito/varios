@@ -35,7 +35,7 @@ public class Data {
 	}
 
 	public void insertarDocumento(KeyDocument key,String patron, String lote,boolean valida) {
-		String sql = "INSERT INTO keys(llave,lote,patron,estado) VALUES(?,?,?,?)";
+		String sql = "INSERT INTO keys(llave,lote,patron,estado,nombre) VALUES(?,?,?,?,?)";
 
 		try {
 
@@ -44,6 +44,7 @@ public class Data {
 			pstmt.setString(2, lote);
 			pstmt.setString(3, patron);
 			pstmt.setBoolean(4,valida);
+		
 			
 			pstmt.executeUpdate();
 			pstmt.close();
